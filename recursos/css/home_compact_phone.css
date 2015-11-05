@@ -10,10 +10,11 @@ body {
 
 /* Barra */
 
-.union_logo {
+.pc_logo {
     
-
-    background:url(../imgs/home/logo_blanco.png);
+    height: 130%;
+    width: 15%;
+    background:url(../imgs/home/icono_blanco.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -23,18 +24,14 @@ body {
     -moz-transition: all .4s ease-in-out;
 }
 
-.union_logo_scrolled {
-    display: block;
-    margin-left: 4%;
-    float: left;
+.pc_logo_scrolled {
     
     height: 100%;
     width: 15%;
-    min-width: 130px;
     max-width: 180px;
     
     
-    background:url(../imgs/home/logo_union.png);
+    background:url(../imgs/home/icono_color.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -94,7 +91,7 @@ body {
 
 .t_registrate {
     border: none;
-    background-color: rgba(121, 111, 217, .97);
+    background-color: rgba(0, 121, 64, 1);
     color: #fff;
 }
 
@@ -164,17 +161,18 @@ body {
 }
 
 .proyectos_title{
-    top: 12%;
+    top: 6%;
     left: 1%;
 }
 
 #proyectos_title {
-    font-size: 45px;
-    line-height: 45px;
+    font-size: 55px;
+    line-height: 50px;
 }
 
 .proyectos_display {
     height: 75%;
+    top: 23%;
 }
 
 .proyecto {

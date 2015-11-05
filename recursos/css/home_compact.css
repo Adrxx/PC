@@ -6,12 +6,13 @@ body {
 
 /* Barra */
 
-.union_logo_scrolled {
+.pc_logo_scrolled {
     top: -100px !important;
     opacity: 0 !important;
+    
 }
 
-.union_logo {
+.pc_logo {
     width: 30%;
     left: 7px;
     top: 7px;
@@ -120,8 +121,12 @@ body {
     height: 33.3%;
 }
 
+#proyectos_title{
+    font-size: 50px;
+}
+
 .proyectos_title{
-    top: 7%;
+top:3%;
 }
 
 .proyecto_datos {
@@ -146,6 +151,7 @@ body {
 .portales_title{
     width: 90%;
     top: 15%;
+    font-size: 60px;
 }
 
 #portales_title {

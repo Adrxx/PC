@@ -10,7 +10,7 @@ function set_Scrolled (){
         $('.tab').addClass('tab_scrolled');
         $('.union_logo_container').addClass('union_logo_container_scrolled');
         $('.nav_bar').addClass('nav_bar_scrolled');
-        $('.union_logo').addClass('union_logo_scrolled');
+        $('.pc_logo').addClass('pc_logo_scrolled');
        
         
         scrolled=true;
@@ -21,7 +21,7 @@ function set_Scrolled (){
         $('.tab').removeClass('tab_scrolled');
         $('.union_logo_container').removeClass('union_logo_container_scrolled');
         $('.nav_bar').removeClass('nav_bar_scrolled');
-        $('.union_logo').removeClass('union_logo_scrolled');
+        $('.pc_logo').removeClass('pc_logo_scrolled');
         
         
         scrolled=false;

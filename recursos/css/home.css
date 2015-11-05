@@ -14,11 +14,11 @@
 }
 
 ::-moz-selection { 
-    background: #c8c2fb;
+    background: rgb(0,121,64);
 }
 
 ::selection {
-    background: #c8c2fb;
+    background:rgb(0,121,64);
 }
 
 body {
@@ -83,7 +83,7 @@ body {
     height: 100%;
     
     font-family: RobotoCondensed Light; 
-    font-size: 17px;
+    font-size: 14px;
     color: #ffffff;
     vertical-align: middle;
     
@@ -104,16 +104,16 @@ body {
 }
 
 .tab:hover {
-    color: #007940;
-    background: #efefef;
+    color: #fff;
+    background: rgb(25, 100, 64);
 }
 
 .t_registrate {
-    color: #007940;
-    border: solid 2px #007940;    
+    color: rgb(0,121,64);
+    border: solid 2px rgb(0,121,64);    
     transition: all .2s ease-in-out;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .14s ease-in-out;
+    -moz-transition: all .14s ease-in-out;
 }
 
 .t_registrate:hover {
@@ -122,8 +122,7 @@ body {
 }
 
 .t_registrate:active {
-    background-color: #645ac1;
-    outline: solid 1px #645ac1;
+    background-color: rgb(25, 100, 64);
     border: solid 1px #645ac1;
     
 }
@@ -153,7 +152,7 @@ body {
 .start_title {
     position: absolute;
     right: 3%;
-    top: 35%;
+    top: 28%;
     
     height: 40%;
     width: 80%;
@@ -173,6 +172,7 @@ body {
     font-family: RobotoCondensed Light;
     font-size: 50px;
     line-height: 50px;
+    text-align:right;
 }
 
 
@@ -184,16 +184,16 @@ body {
     pointer-events: auto;
 }
 
-.union_logo {
+.pc_logo {
     display: block;
     margin-left: 4%;
     float: left;
     
-    height: 100%;
-    width: 15%;
-    min-width: 150px !important;
-    max-width: 180px;
-    
+    height: 130%;
+    width: 20%;
+    min-width: 190 !important;
+    /*max-width: 180px;
+    */
 
     background:url(../imgs/home/logo_blanco.png);
     background-size: contain;
@@ -202,14 +202,15 @@ body {
     
     cursor: pointer;
         
-    transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    -moz-transition: all .4s ease-in-out;
+    transition: all .25s ease-in-out;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
 }   
 
-.union_logo_scrolled {
+.pc_logo_scrolled {
     width: 12%;
-    background:url(../imgs/home/logo_union.png);
+    height:100%;
+    background:url(../imgs/home/logo_color.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
@@ -258,6 +259,13 @@ body {
     background-position: center;
 }
 
+#BG3 {
+    background: url(../imgs/home/bg3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .quees_title {
     position: absolute;
     right: 5%;
@@ -289,25 +297,26 @@ body {
 #que_subtitle {
     float: right;
     font-family: RobotoCondensed Light;
-    font-size: 45px;
+    font-size: 40px;
     line-height: 40px;
     text-align: right;
+    margin-top: 7px;
 }
 
 #quees_text {
     float: left;
     font-family: RobotoCondensed Light;
     font-size: 25px;
-    line-height: 30px;
+    line-height: 35px;
     text-align: left;
 }
 
 .quees_text {
     position: absolute;
     left: 5%;
-    bottom: 10%;
+    bottom: 15%;
     
-    width: 50%;
+    width: 55%;
     
     z-index: 10;
 }
@@ -333,8 +342,8 @@ body {
 #proyectos_title {
     float: right;
     font-family: RobotoCondensed;
-    font-size: 60Px;
-    line-height: 60px;
+    font-size: 55px;
+    line-height: 55px;
     text-align: left;
 }
 
@@ -372,8 +381,9 @@ body {
     display: block;    
     width: 100%;
     height: 100%;
+    opacity: .86;
     
-    background-size: contain; 
+    background-size: cover; 
     background-repeat: no-repeat;
     background-position: center center; 
 }
@@ -401,34 +411,16 @@ body {
     opacity: 1;
 }
 
-#c_emprendimiento:hover {
-    background: #af86f4;
+#c_rojo:hover {
+    background: rgb(137, 46, 56);
     
 }
 
-#c_salud:hover {
-    background: #62a9df;
+#c_verde:hover {
+    background: #0d623a;
     
 }
 
-#c_deportes:hover {
-     background: #ec4e5d;
-    
-}
-
-#c_arte:hover {
-     background: #dd85e5;
-    
-}
-
-#c_medio:hover {
-    background: #27c177;
-}
-
-#c_educacion:hover {
-    background: #f7be52;
-    
-}
 
 .proyecto_name {
     display: block;
@@ -569,7 +561,7 @@ body {
 #portales_title {
     float: right;
     font-family: RobotoCondensed;
-    font-size: 80Px;
+    font-size: 75px;
     line-height: 80px;
     text-align: right;
 }
@@ -580,7 +572,7 @@ body {
     width: 100%;
     height: 100%;
     
-    background: #525252;
+    background: #007940;
     opacity: .7;
     border: solid 1px #333;
     
@@ -593,12 +585,12 @@ body {
 }
 
 .portales_cover:hover {
-    background: #007940;
+    background: #145f3c;
     opacity: .6;
 }
 
 .portales_cover:active {
-    background: #c8c2fb;
+    background: #007940;
     opacity: .6;
 }
 
@@ -679,10 +671,9 @@ body {
 
 .boton_registro {
     padding: 8px 40px;
-    border: solid 2px #007940;
-    background: #007940;
+    border: solid 2px rgb(0,121,64);
     color: #fff;
-    opacity: .7;
+    opacity: .85;
     
      transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
@@ -692,10 +683,10 @@ body {
 
 .boton_registro:hover {
     opacity: 1;
-    border: solid 2px #c8c2fb;
+    border: solid 2px rgb(0,121,64);
     background: #007940;
     color: #fff;
-    opacity: 0.7;
+    opacity: 0.95;
     
      transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
@@ -705,7 +696,7 @@ body {
 .boton_registro:active {
     
     opacity: 1;
-    background:#645ac1;
+    background:rgb(4, 106, 58);
     
 }
 
@@ -740,10 +731,9 @@ body {
 
 .portal_name {
     display: block;
-    
-    width: auto;
+    margin: 0 auto; 
+    width: 90%;
     height: auto;
-    
     color: #fff;
     text-align: center;
     opacity: 1;
