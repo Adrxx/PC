@@ -1,0 +1,17 @@
+
+#login_box {
+
+	width: 90%;
+	height: 400px;
+	
+	left: 50%;
+	margin-left: -45%;
+	top:50%;
+
+}
+
+#login_fields {
+	height:28%;
+    margin: 3% 1%;
+
+}

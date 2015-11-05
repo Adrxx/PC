@@ -1,0 +1,770 @@
+@font-face {
+	font-family: Roboto;
+	src: url(../../recursos/fuentes/Roboto.ttf);
+}
+
+@font-face {
+	font-family: RobotoCondensed Light;
+	src: url(../../recursos/fuentes/RobotoCondensed-Light.ttf);
+}
+
+@font-face {
+	font-family: RobotoCondensed;
+	src: url(../../recursos/fuentes/RobotoCondensed-Regular.ttf);
+}
+
+::-moz-selection { 
+    background: #c8c2fb;
+}
+
+::selection {
+    background: #c8c2fb;
+}
+
+body {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #525252;
+    overflow-x: hidden;
+   
+}
+
+.nav_bar {
+    display: block;
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    height: 70px;
+    
+    background-color: rgba(255, 255, 255,0);
+    
+    text-align: center;
+        
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+}
+
+.nav_bar_scrolled{
+    height: 55px;
+    background-color: rgba(255, 255, 255,.96);
+    padding: 0;
+}
+
+.nav_tabs_container{
+    display: block;
+    height: 100%;
+    width: 75%;
+    float: right;
+    margin-right: 5px;
+    padding-top: 10px;
+    }
+
+.nav_bar_scrolled > .nav_tabs_container{
+    padding-top: 0px;
+}
+
+.nav_tabs {
+    display: table;    
+    table-layout: fixed;
+    height: 100%; 
+    width: 100%;
+    }
+
+.tab {
+    display: table-cell;
+    opacity: 0;
+    cursor:pointer;
+	
+	text-decoration: none;
+
+    height: 100%;
+    
+    font-family: RobotoCondensed Light; 
+    font-size: 17px;
+    color: #ffffff;
+    vertical-align: middle;
+    
+    padding: 0 5px;
+    
+    pointer-events: none;
+    
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out; 
+
+}
+
+.tab_scrolled {
+    color: #525252;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.tab:hover {
+    color: #007940;
+    background: #efefef;
+}
+
+.t_registrate {
+    color: #007940;
+    border: solid 2px #007940;    
+    transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+}
+
+.t_registrate:hover {
+    color: #fff;
+    background-color: #007940;
+}
+
+.t_registrate:active {
+    background-color: #645ac1;
+    outline: solid 1px #645ac1;
+    border: solid 1px #645ac1;
+    
+}
+
+.background {
+    display: block;
+    position: absolute;
+   
+    width: 100%;
+    height: 100%;
+    
+    z-index: 1;
+}
+
+.cover {
+    display: block;
+    top: 0;
+    
+    position: absolute;
+   
+    width: 100%;
+    height: 100%;
+    
+    z-index: 1;
+}
+
+.start_title {
+    position: absolute;
+    right: 3%;
+    top: 35%;
+    
+    height: 40%;
+    width: 80%;
+    
+    z-index: 10;
+}
+
+#start_title {
+    float: right;
+    font-family: RobotoCondensed;
+    font-size: 120px;
+    line-height: 105px;
+}
+
+#start_subtitle {
+    float: right;
+    font-family: RobotoCondensed Light;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+
+/*        Interfaz        */
+
+
+.visible{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.union_logo {
+    display: block;
+    margin-left: 4%;
+    float: left;
+    
+    height: 100%;
+    width: 15%;
+    min-width: 150px !important;
+    max-width: 180px;
+    
+
+    background:url(../imgs/home/logo_blanco.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    cursor: pointer;
+        
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+}   
+
+.union_logo_scrolled {
+    width: 12%;
+    background:url(../imgs/home/logo_union.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+ 
+#BG1 {
+    background-image: url(../imgs/home/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.flechita {
+    display: block;
+    
+    position: absolute;
+    bottom: 2%;
+    left: 45%;
+    
+    width: 10%;
+    height: 10%;
+    
+    z-index: 15;
+        
+    background-image: url(../imgs/home/flecha_animated.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: .8;
+    
+    cursor: pointer;
+}
+
+.start {
+    display: block;
+    
+    position: relative;
+    
+    height: 100%;
+    width: 100%;
+}
+
+#BG2 {
+    background: url(../imgs/home/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.quees_title {
+    position: absolute;
+    right: 5%;
+    top: 17%;
+    
+    height: 40%;
+    width: 70%;
+    
+    z-index: 10;
+}
+
+#quees_title {
+    float: right;
+    font-family: RobotoCondensed;
+    font-size: 60px;
+    line-height: 55px;
+    text-align: right;
+}
+
+.quees {
+    display: block;
+    
+    position: relative;
+    
+    height: 100%;
+    width: 100%;
+}
+
+#que_subtitle {
+    float: right;
+    font-family: RobotoCondensed Light;
+    font-size: 45px;
+    line-height: 40px;
+    text-align: right;
+}
+
+#quees_text {
+    float: left;
+    font-family: RobotoCondensed Light;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.quees_text {
+    position: absolute;
+    left: 5%;
+    bottom: 10%;
+    
+    width: 50%;
+    
+    z-index: 10;
+}
+
+.proyectos {
+    display: block;
+    
+    position: relative;
+    
+    min-height: 100%;
+    width: 100%;
+}
+
+.proyectos_title {
+    position: absolute;
+    left: 8%;
+    top: 15%;
+    
+    height: 40%;
+    z-index: 10;
+}
+
+#proyectos_title {
+    float: right;
+    font-family: RobotoCondensed;
+    font-size: 60Px;
+    line-height: 60px;
+    text-align: left;
+}
+
+.proyectos_display {
+    display: block;
+    
+    position: absolute; 
+    bottom: 0%;
+    
+    width: 100%;
+    height: 63%; 
+    z-index: 11;         
+}
+
+.proyecto {
+    display: block; 
+    position: relative;
+    width: 33.3%;
+    height: 50%;
+    float: left;
+}
+
+.proyectos_table {
+    width: 100%;
+    height:100%;
+    display: block;
+    position: static;
+    float: left;
+    
+    overflow: hidden;
+    
+}
+
+.proyecto_bg {
+    display: block;    
+    width: 100%;
+    height: 100%;
+    
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+.proyecto_cover {
+    display: block;
+    position: absolute;
+    
+    bottom: 0%;
+    
+    width: 100%;
+    height: 100%;
+    
+    background: #525252;
+    opacity: .93;
+    
+    z-index: 15;
+    
+     transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+}
+
+.proyecto_cover:hover > .proyecto_datos:first-child {
+    opacity: 1;
+}
+
+#c_emprendimiento:hover {
+    background: #af86f4;
+    
+}
+
+#c_salud:hover {
+    background: #62a9df;
+    
+}
+
+#c_deportes:hover {
+     background: #ec4e5d;
+    
+}
+
+#c_arte:hover {
+     background: #dd85e5;
+    
+}
+
+#c_medio:hover {
+    background: #27c177;
+}
+
+#c_educacion:hover {
+    background: #f7be52;
+    
+}
+
+.proyecto_name {
+    display: block;
+    
+    width: auto;
+    height: auto;
+    
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+}
+
+.p_name {
+    font-family: RobotoCondensed Light;
+    font-size: 24px;
+    
+}
+
+.p_author {
+    font-family: RobotoCondensed Light;
+    font-size: 19px;
+    opacity: .8;
+}
+
+.proyecto_datos {
+    display: table;
+    width: 100%;
+    height: 100%;
+
+    opacity: .3;
+     transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+}
+
+.calendar_outline {
+    display: block;
+    
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+    
+    width: 45px;
+    height: 45px;
+    
+    border: solid white 2px;
+    border-radius: 4px;
+    
+    opacity: 1;
+    
+    text-align: center;
+}
+
+.month {
+    font-family: RobotoCondensed Light;
+    font-size: 17px;
+    color: white; 
+}
+
+.day {
+    font-family: RobotoCondensed Light;
+    font-size: 23px;
+    color: white; 
+}
+
+.category {
+    display: block;
+    
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    
+    height: 35px;
+    width: 100%;
+    
+    z-index: 20;
+    text-align: left;
+    
+}
+
+#l_emprendimiento {
+    background: url(../imgs/educacion_white.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.category_name {
+    position: relative;
+    float: left;
+    
+    display: block;
+    
+    height: 100%;
+    width: 80%;
+    
+    font-family: RobotoCondensed Light;
+    font-size: 20px;
+    line-height: 40px;
+    
+    opacity: .8;
+    
+    
+    color: #fff;
+    
+    text-align: left;
+}
+
+.portales {
+    display: block;
+    
+    position: relative;
+    
+    height: 100%;
+    width: 100%;
+}
+
+.portales_display {
+    display: block;
+    
+    position: absolute; 
+    bottom: 15%;
+    
+    width: 100%;
+    height: 43%; 
+    
+    z-index: 11; 
+}
+
+.portales_title {
+    position: absolute;
+    right: 8%;
+    top: 20%;
+    
+    z-index: 10;
+}
+
+#portales_title {
+    float: right;
+    font-family: RobotoCondensed;
+    font-size: 80Px;
+    line-height: 80px;
+    text-align: right;
+}
+
+.portales_cover {
+    display: block;
+    position: absolute;    
+    width: 100%;
+    height: 100%;
+    
+    background: #525252;
+    opacity: .7;
+    border: solid 1px #333;
+    
+    z-index: 15;
+      
+    
+     transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+}
+
+.portales_cover:hover {
+    background: #007940;
+    opacity: .6;
+}
+
+.portales_cover:active {
+    background: #c8c2fb;
+    opacity: .6;
+}
+
+.portales_cover:hover > .proyecto_datos:first-child {
+    opacity: 1;
+}
+
+.portales_name {
+    display: block;
+    position: absolute;
+    
+    width: 70%;
+    height: 30%;
+    
+    top: 42%;
+    right: 15%;
+    
+    z-index: 20;
+    
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+}
+
+.registro {
+     display: table;
+    
+    position: relative;
+    
+    height: 100%;
+    width: 100%;
+}
+
+.registro_title {
+    position: relative;
+   
+    
+    margin: 0px auto;
+    
+    max-width: 70%;
+    
+    height: auto;
+    overflow: hidden;
+
+    z-index: 10;
+}
+
+#registro_title {
+    float: right;
+    font-family: RobotoCondensed Light;
+    font-size: 60Px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.boton_registro_container {
+    display: block;
+    
+    position: relative;
+
+    width: auto;
+    height: 55px;
+    
+    
+    padding: 0px 40px;
+    
+    margin: 30px auto 0px auto;
+    
+    font-family: RobotoCondensed Light;
+    font-size: 30px;
+    line-height: 60px;
+    text-align: center;
+    
+    z-index: 25;
+    
+
+}
+
+.boton_registro {
+    padding: 8px 40px;
+    border: solid 2px #007940;
+    background: #007940;
+    color: #fff;
+    opacity: .7;
+    
+     transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out; 
+    
+}
+
+.boton_registro:hover {
+    opacity: 1;
+    border: solid 2px #c8c2fb;
+    background: #007940;
+    color: #fff;
+    opacity: 0.7;
+    
+     transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out; 
+}
+
+.boton_registro:active {
+    
+    opacity: 1;
+    background:#645ac1;
+    
+}
+
+.onview {
+    background: #007940;
+    color: #fff;
+}
+
+.vert-align {
+    display: table-cell;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.portales_table {
+    width: 100%;
+    height:100%;
+    display: block;
+    position: static;
+    float: left;
+}
+
+.portal {
+    display: block; 
+    position: relative;
+    width: 33.3%;
+    height: 100%;
+    float: left
+}
+
+.portal_name {
+    display: block;
+    
+    width: auto;
+    height: auto;
+    
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+}
+
+.ham_menu {
+    display: none;
+    
+    position: absolute;
+    right: 0;
+    
+    width: 70px;
+    height: 70px;
+    
+    background-image: url(../imgs/home/menu_icon.png);
+    background-size: auto 60%;
+    background-repeat: no-repeat;
+    background-position: center  center;
+    
+    transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    
+}

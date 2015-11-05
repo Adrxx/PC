@@ -1,0 +1,506 @@
+
+#sidebar {
+	
+	
+	position: relative;
+	
+	width: 100%;
+	height: auto;
+	
+	background-color:#fff;
+	
+	overflow-y: auto;
+	
+	
+	-webkit-box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.0);
+	-moz-box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.0);
+	box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.0);
+	
+	
+}
+
+#main_panel {
+	
+		min-width: 0px;
+
+	width: 100%;
+	
+	
+}
+
+#perfil {
+	
+	display: none;
+}
+
+#timeline {
+	
+	position: relative;
+	
+	margin-top: 0px;
+	
+	z-index: -100;
+	
+	left:0px; 
+	
+	width: auto;
+	height: 100%;
+	
+	
+}
+
+.titled_separator {
+	
+	
+	margin-top: 0px;
+	
+	padding: 4px;
+	padding-left: 25px;
+
+	border-bottom-width: 0px;
+	border-bottom-style: none;
+
+	
+	font-size: 15px;
+	text-align: left;
+	font-family: RobotoCondensed ;
+	
+	
+	background-color: #525252;
+	color:#d1d1d1;
+	
+	
+}
+
+
+
+#nombre_perfil {
+
+	position: static;
+
+	
+	width: auto;
+	height: auto;
+	
+	margin-top: 0px;
+	margin-left: 0px;
+	
+	padding: 0px;
+			
+	font-size: 25px;
+	font-family: RobotoCondensed; 
+	
+	text-align: left;
+	
+	color: #fff;
+}
+
+#perfil_mobile {
+	
+	display: block;
+	
+	position: fixed;
+	
+	z-index: 90;
+	
+	top:0px;
+	
+	padding-top: 44px;
+	
+	width: 100%;
+	height: 120px;
+	background-color: #4895ff;
+	
+		-webkit-box-shadow:  0px 2px 0px 0px rgba(0,0,0,0.1);
+	
+-moz-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
+	
+box-shadow:  0px 2px 0px 0px rgba(0,0,0,0.1);
+
+	
+}
+
+.foto_perfil_container_mobile {
+	
+	position: static;
+	
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	height:80px;
+	width: 80px;
+	border-radius: 41px;
+	
+	background-color: #27c177;
+	
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 50%;
+	
+	background-image: url("../../recursos/imgs/medio_ambiente_white.png");
+
+	
+	border-style: solid;
+	border-color: #FFF;
+	border-width: 2px;
+	
+	overflow: hidden;
+	
+	-webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
+	
+	
+}
+
+#profile_mobile_table {
+	
+	position: static;
+	
+	width: 100%;
+	height: 100%;
+	
+	border-spacing: 0px;
+}
+
+
+
+#direccion_perfil {
+	
+	position: static;
+	
+	width: auto;
+	height: auto;
+	
+	padding: 0px;
+	
+	line-height: 20px;
+	
+	font-size: 16px;
+	font-family: RobotoCondensed Light; 
+	
+	text-align: left;
+	
+	color: #fff;
+		
+	
+	
+}
+
+#mas_info {
+	
+	position: absolute;
+
+	bottom: 10px;
+	right: 10px;
+	
+	height: 25px;
+	width: 50px;
+	
+
+	
+	margin:0px;
+	margin-top: 20px;
+	
+	border-radius: 20px;
+	
+	text-align: center;
+	font-size: 30px;
+	line-height: 8px;
+	
+	color:#fff;
+	
+}
+
+#mas_info:hover 
+{
+	
+	background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+#mas_info:active 
+{
+	
+	background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+
+#info_extra_perfil_mobile {
+	
+	display: block;
+	
+	position: static;
+	
+	padding: 0px 0px;
+	
+	width: auto;
+	height: 0px;
+	
+	background-color: #4895ff;
+
+	
+	overflow: hidden;
+	
+-webkit-box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.1), 0px 2px 0px 0px rgba(0,0,0,0.1);
+	
+-moz-box-shadow: inset 0px 2px 0px 0px rgba(0,0,0,0.1), 0px 2px 0px 0px rgba(0,0,0,0.1);
+	
+box-shadow:  0px 2px 0px 0px rgba(0,0,0,0.1);
+	
+	
+
+	
+}
+
+.titled_separator2 {
+
+	display: none;
+}
+
+
+
+#mobile_habilidades_separator {
+	display: block;
+	margin-top: 164px;
+	
+}
+
+#mobile_separator {
+	display: block;
+	
+}
+
+#intereses {
+	
+	
+	width: 100%;
+	height: auto;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	
+	table-layout:fixed;
+	border-spacing:0px;
+	
+	
+}
+
+.icono_interes {
+	
+	
+	background-position: center 17px;
+	background-size:50px auto;
+	background-repeat: no-repeat;
+
+	width: auto;
+	height: 70px;
+	
+
+	
+	margin:0px;
+	
+	border-radius: 0px;
+	
+}
+
+.titulo_interes {
+	
+
+	font-size: 17px;
+	height: 40px;
+}
+
+#interes_salud {
+	background-color: #62a9df;
+	color: #fff;
+}
+
+#interes_medio_ambiente {
+	
+	background-color: #27c177;
+	color: #fff;
+	
+}
+
+
+
+#interes_educacion {
+	
+	background-color: #e0a635;
+	color: #fff;
+}
+
+#activity {
+	
+	position: relative;
+	margin: 0px;
+	border-radius: 0px;
+	width: auto;
+	height: auto;
+	
+	padding-bottom: 1px;
+	
+	background-color: #FFF;
+	
+		
+	-webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.0);
+	-moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.0);
+	box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.0);
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#edad_perfil {
+	
+	position: static;
+	
+	width: auto;
+	height: auto;
+	
+	padding: 4px 52px;
+	
+	
+	
+	font-size: 16px;
+	font-family: RobotoCondensed; 
+	
+	text-align: justify;
+	
+	color: #fff;
+	
+	overflow: hidden;
+	
+	text-overflow: ellipsis;
+	
+	word-wrap: normal;
+	
+}
+
+
+
+.boton {
+	
+	position: static;
+	
+	height: auto;
+	width: auto;
+	
+	margin: 10px;
+	padding: 8px;
+
+	font-family: "RobotoCondensed";
+	
+	text-align: center;
+	font-size: 14px;
+
+	
+	color: #fff;
+	border-radius: 100px;
+	
+	background-color: rgba(0,0,0,0.2);
+	
+}
+
+.boton:hover {
+		
+	background-color: rgba(0,0,0,0.3);
+	
+}
+
+.boton:active {
+		
+	background-color: rgba(0,0,0,0.4);
+	
+}
+
+#botones_perfil {
+	width: 100%;
+	height: auto;
+	table-layout: fixed;
+}
+
+
+
+
+
+
+
+
+
+#descripcion {
+	padding: 13px 20px;
+}
+
+.icono_interes_secundario {
+	
+		background-position: center 17px;
+	background-size:30px auto;
+	background-repeat: no-repeat;
+
+	width: auto;
+	height: 60px;
+	
+
+	
+	margin:0px;
+	
+	border-radius: 0px;
+	
+}
+
+.titulo_interes_secundario {
+	
+	padding: 7px 0px;
+}
+
+#portada {
+	display: none;
+}
+
+#estrellas_perfil {
+	
+	padding: 0px;
+	text-align: left;
+
+}
+
+.active_star {
+	color: #fff !important;
+}
+
+.inactive_star {
+		
+color: #fff !important;
+}
+
+
+
+#fechas {
+	
+	margin: 0px auto;
+	padding: 20px;
+	width: 220px;
+	table-layout: fixed;
+	
+}
+
+#fechas2 {
+	
+	margin: 8px auto;
+	width: 175px;
+	
+}

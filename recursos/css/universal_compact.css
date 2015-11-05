@@ -1,0 +1,343 @@
+@font-face {
+	font-family: Roboto;
+	src: url(../../recursos/fuentes/Roboto.ttf);
+}
+
+@font-face {
+	font-family: RobotoCondensed Light;
+	src: url(../../recursos/fuentes/RobotoCondensed-Light.ttf);
+}
+
+@font-face {
+	font-family: RobotoCondensed;
+	src: url(../../recursos/fuentes/RobotoCondensed-Regular.ttf);
+}
+
+html {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+.separator {
+		
+	margin-left: auto;
+	margin-right: auto;
+	height: 1px;
+	width: 95%;
+	background-color: #d1d1d1;
+	
+}
+
+.interface
+{
+	-webkit-user-select: none; /* Chrome/Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+ */
+
+/* Rules below not implemented in browsers yet */
+	
+	-o-user-select: none;
+	user-select: none;
+}
+
+
+#month {
+	
+
+	position: relative;
+	top:2px;
+	
+	width: 100%;
+	height: 30%;
+	
+	font-family: RobotoCondensed;
+	font-size: 15px;
+	text-align: center;
+	
+	color: #525252;
+	
+	
+}
+
+#day {
+	position: relative;
+	bottom: 1px;
+	width: 100%;
+	height: 70%;
+
+	
+	
+	font-family: RobotoCondensed;
+	font-size: 24px;
+	text-align: center;
+	vertical-align:bottom;
+	
+	line-height: 38px;
+		
+		
+	color: #525252;
+}
+
+
+
+
+html {
+	position: static;
+	width: 100%;
+	height: 100%;
+	overflow-y: scroll;
+}
+
+
+
+
+
+#logo_container {
+	position: static;
+	
+	width: 110px;
+	height: 100%;
+	
+}
+
+#menu_bar {
+	
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	height: 44px;
+
+	background-color: rgba(0,0,0,0.1) !important;
+	
+	-webkit-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
+	-moz-box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
+	box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.1);
+	
+}
+
+#menu_bar_container {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: 100%;
+	
+	min-width: 0px;
+
+	
+	border-spacing: 0px;
+	
+}
+
+
+
+
+
+#logo {
+	
+	height: 100%;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 70px auto;
+	background-image: url("../../recursos/imgs/logo.png");
+	
+
+}
+
+.menu_tab {
+	
+
+	
+}
+
+#selected_tab {
+	
+	
+		-webkit-box-shadow: inset 0px 50px 0px 0px rgba(255,255,255,0.2);
+-moz-box-shadow: inset 0px 50px 0px 0px rgba(255,255,255,0.2);
+	
+box-shadow: inset 0px 50px 0px 0px rgba(0,0,0,0.2);
+	
+	
+	
+}
+
+#selected_tab:hover {
+	
+	
+	-webkit-box-shadow: inset 0px  0px 0px 0px rgba(255,255,255,0.9);
+-moz-box-shadow: inset 0px 0px 0px 0px rgba(255,255,255,0.9);
+	
+box-shadow: inset 0px 0px 0px 0px rgba(255,255,255,0.9);
+	
+}
+
+#selected_tab:active {
+	
+	
+	-webkit-box-shadow: inset 0px  50px 0px 0px rgba(0,0,0,0.67)
+-moz-box-shadow: inset 0px 50px 0px 0px rgba(0,0,0,0.67);
+	
+box-shadow: inset 0px 50px 0px 0px rgba(0,0,0,0.67);
+	
+}
+
+#tab_icon {
+	padding-top: 4px;
+}
+
+#row_desktop {
+	display: none;
+}
+
+#row_mobile {
+	display: table-row;
+}
+
+#tabs_container_not_logged {
+
+	
+}
+
+#untitled_separator {
+	display: block;
+	height: 1px;
+	
+	background-color: #525252;
+}
+
+
+
+#icono_interes_salud_white {
+	
+	
+	background-image: url("../../recursos/imgs/salud_white.png");
+
+	
+	color:#62a9df;
+	background-color: #62a9df !important;
+	
+	
+}
+
+#icono_interes_medio_white {
+	
+	
+	background-image: url("../../recursos/imgs/medio_white.png");
+
+	
+	color: #27c177;
+	background-color: #27c177 !important;
+	
+}
+
+#icono_interes_educacion_white {
+	
+	
+	background-image: url("../../recursos/imgs/educacion_white.png");
+
+	color: #e0a635 ;
+	background-color: #e0a635 !important;
+}
+
+
+#icono_interes_emprendimiento_white {
+	
+	
+	background-image: url("../../recursos/imgs/emprendimiento_white.png");
+
+	color: #af86f4 ;
+	background-color: #af86f4  !important;
+}
+
+#icono_interes_emprendimiento_white {
+	
+	background-image: url("../../recursos/imgs/emprendimiento_white.png");
+
+	color: #af86f4 ;
+	background-color: #af86f4  !important;
+}
+
+
+#icono_interes_deportes_white {
+	
+	background-image: url("../../recursos/imgs/deportes_white.png");
+
+	color: #62a9df ;
+	background-color: #62a9df  !important;
+}
+
+
+#icono_interes_arte_white {
+	
+	background-image: url("../../recursos/imgs/arte_white.png");
+
+	color: #dd85e5 ;
+	background-color: #dd85e5  !important;
+}
+
+#icono_interes_ciencia_white {
+	
+	background-image: url("../../recursos/imgs/ciencias_white.png");
+
+	color: #b0b0b0 ;
+	background-color: #b0b0b0  !important;
+}
+
+#icono_interes_derechos_white {
+	
+	background-image: url("../../recursos/imgs/derechos_white.png");
+
+	color: #4c70c1 ;
+	background-color: #4c70c1  !important;
+}
+
+#icono_interes_asistencia_white {
+	
+	background-image: url("../../recursos/imgs/asistencia_white.png");
+}
+
+#icono_interes_participacion_white {
+	
+	background-image: url("../../recursos/imgs/participacion_white.png");
+}
+
+#icono_interes_equidad_white {
+	
+	background-image: url("../../recursos/imgs/equidad_white.png");
+}
+
+#icono_interes_desarrollo_white {
+	
+	background-image: url("../../recursos/imgs/desarrollo_white.png");
+}
+
+#icono_interes_legal_white {
+	
+	background-image: url("../../recursos/imgs/legal_white.png");
+}
+
+#icono_interes_otros_white {
+	
+	background-image: url("../../recursos/imgs/otros_white.png");
+}
+
+
+
+#login_box {
+	
+	
+	width: 90%;
+	height: 400px;
+	
+	left: 50%;
+	margin-left: -45%;
+	top:50%;
+
+}
+
+#login_fields {
+	height:28%;
+		margin: 3% 1%;
+
+}

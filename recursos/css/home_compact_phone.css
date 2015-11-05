@@ -1,0 +1,240 @@
+body {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    
+    max-width: 100%;
+    
+    overflow-x: hidden;
+}
+
+/* Barra */
+
+.union_logo {
+    
+
+    background:url(../imgs/home/logo_blanco.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+        
+    transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+}
+
+.union_logo_scrolled {
+    display: block;
+    margin-left: 4%;
+    float: left;
+    
+    height: 100%;
+    width: 15%;
+    min-width: 130px;
+    max-width: 180px;
+    
+    
+    background:url(../imgs/home/logo_union.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.ham_menu {
+    display: block;
+}
+
+.nav_tabs_container {
+    display: none;
+    position: absolute;
+    top: 100%;
+    
+    
+    width: 100%;
+    height: 250px;
+    margin: 0;
+}
+
+.nav_tabs {
+    display: block;
+    height: 100%; 
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.tab {
+    display: block;
+    width: 100%;
+    height: 20%;
+    opacity: 1;
+    
+    font-family: RobotoCondensed Light; 
+    font-size: 20px;
+    color: #525252;
+    line-height: 60px;
+    
+    pointer-events: auto;
+    
+    padding: 0;
+    background-color: rgba(255, 255, 255,.96);   
+}
+
+.onview {
+    color: #525252;
+    background-color: rgba(255, 255, 255,.96); 
+}
+
+.nav_bar_scrolled > .ham_menu {
+    width: 55px;
+    height: 55px;
+    
+    background-color: #007940;
+}
+
+.t_registrate {
+    border: none;
+    background-color: rgba(121, 111, 217, .97);
+    color: #fff;
+}
+
+.t_sesion {
+    border-top: solid 1px #007940;
+}
+
+
+/* Start */
+
+.start_title {
+    top: 35%;
+    width: 90%;
+    right: 1%;
+}
+
+#start_title {
+      font-size: 55px;
+    line-height: 50px;
+}
+
+#start_subtitle {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: right;
+}
+
+
+/* Qué es */
+
+.quees {
+    min-height: 600px;
+}
+
+.quees_title {
+    top: 20%;
+    right: 1.5%;
+    
+    width: 95%;
+}
+
+#quees_title {
+    font-size: 35px;
+    line-height: 35px;
+}
+
+#que_subtitle {
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.quees_text {
+    left: 5%;
+    width: 90%;
+}
+
+#quees_text {
+    font-size: 22px;
+    line-height: 25px;
+}
+
+
+ /* Proyectos*/
+
+.proyectos {
+    height: 1200px;
+}
+
+.proyectos_title{
+    top: 12%;
+    left: 1%;
+}
+
+#proyectos_title {
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.proyectos_display {
+    height: 75%;
+}
+
+.proyecto {
+    width: 100%;
+    height: 16.66%
+}
+
+.proyecto_datos {
+    opacity: .93;
+}
+
+.calendar_outline {
+    opacity: .5;
+    bottom: 15px;
+    right: 15px;
+}
+
+.category {
+    opacity: .5;
+    top: 10px;
+    left: 10px;
+}
+
+.category_name{
+    font-size: 17px;
+}
+
+
+/* Portales*/
+
+.portales {
+    min-height: 600px;
+}
+.portales_title {
+    top: 12%;
+    right: 5%;
+}
+
+#portales_title {
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.portales_display {
+    bottom: 5%;
+    height: 65%;
+}
+
+.portal {
+    width: 100%;
+    height: 33.3%;
+}
+
+/* Proyectos*/
+
+.registro_title {
+    max-width: 90%;
+}
+
+#registro_title {
+    font-size: 40px;
+    line-height: 40px;
+}
