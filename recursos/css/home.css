@@ -381,7 +381,6 @@ body {
     display: block;    
     width: 100%;
     height: 100%;
-    opacity: .86;
     
     background-size: cover; 
     background-repeat: no-repeat;
@@ -408,7 +407,7 @@ body {
 }
 
 .proyecto_cover:hover > .proyecto_datos:first-child {
-    opacity: 1;
+    opacity: .9;
 }
 
 #c_rojo:hover {
@@ -585,7 +584,7 @@ body {
 }
 
 .portales_cover:hover {
-    background: #145f3c;
+    background: rgb(168, 27, 43);
     opacity: .6;
 }
 
