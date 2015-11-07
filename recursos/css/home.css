@@ -584,7 +584,7 @@ body {
 }
 
 .portales_cover:hover {
-    background: rgb(168, 27, 43);
+    background: rgb(25, 100, 64);
     opacity: .6;
 }
 
@@ -670,7 +670,7 @@ body {
 
 .boton_registro {
     padding: 8px 40px;
-    border: solid 2px rgb(0,121,64);
+    border: solid 2px rgb(255, 255, 255);
     color: #fff;
     opacity: .85;
     
